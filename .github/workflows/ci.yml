@@ -1,3 +1,4 @@
+name: C Build CI
 
 on: [push, pull_request]
 
