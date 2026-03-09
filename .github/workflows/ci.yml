@@ -1,4 +1,3 @@
-name: C Build CI
 
 on: [push, pull_request]
 
@@ -15,4 +14,6 @@ jobs:
       run: |
         # Мы имитируем ввод данных для 10 студентов (по 3 оценки и даты)
         # Это "автоматический тест", чтобы не вводить руками
-        printf "Ivanov\n1995 05 10\n5 5 5\nPetrov\n1985 01 01\n3 3 3\nSidorov\n1990 12 01\n4 4 4\nSmirnov\n2000 01 01\n5 4 5\nUser5\n1991 01 01\n3 3 3\nUser6\n1991 01 01\n3 3 3\nUser7\n1991 01 01\n3 3 3\nUser8\n1991 01 01\n3 3 3\nUser9\n1991 01 01\n3 3 3\nUser10\n1991 01 01\n3 3 3\n" | ./app
+        printf "Ivanov\n1995 05 10\n5 5 5\nPetrov\n1985 01 01\n3 3 3\nSidorov\n>
+
+
